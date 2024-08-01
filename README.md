@@ -1,20 +1,12 @@
 # Identify-Customer-Segments
-In this project, you'll apply your unsupervised learning skills to two demographics datasets, to identify segments and clusters in the population, and see how customers of a company map to them.
+## Dataset Overview:
 
-### Project Overview 
-In this project, you will work with real-life data provided to us by our Bertelsmann partners AZ Direct and Arvato Finance Solution. The data here concerns a company that performs mail-order sales in Germany. Their main question of interest is to identify facets of the population that are most likely to be purchasers of their products for a mailout campaign. Your job as a data scientist will be to use unsupervised learning techniques to organize the general population into clusters, then use those clusters to see which of them comprise the main user base for the company. Prior to applying the machine learning methods, you will also need to assess and clean the data in order to convert the data into a usable form.
+The dataset for this project contains detailed customer information for a mail-order sales company in Germany. It has been provided by Bertelsmann Arvato Analytics and represents a real-life data science task. The data includes various attributes that will be used to identify distinct customer segments. The goal is to apply unsupervised learning techniques to uncover these segments, which can then be targeted for more effective marketing campaigns.
 
-### What will I need to install?
-It is highly recommended that you use the project workspace to complete and submit this project. Should you decide to download the data, you will need to remove it from your computer via the agreement with Arvato Bertlesmann. If you choose to use your machine to complete this project, below are a list of the requirements.
+## Problem Statement:
 
-This project uses Python 3 and is designed to be completed through the Jupyter Notebooks IDE. It is highly recommended that you use the Anaconda distribution to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are expected to be used in this project:
-- NumPy
-- pandas
-- Sklearn / scikit-learn
-- Matplotlib (for data visualization)
-- Seaborn (for data visualization)
+My primary objective is to use unsupervised learning techniques to identify and analyze customer segments within the dataset. This involves several steps: loading and preprocessing the data, applying clustering algorithms to uncover distinct customer segments, and analyzing these segments to understand their characteristics. The identified segments will help in directing marketing campaigns towards audiences with the highest expected return on investment. I will need to make decisions on how to treat the data at various stages, documenting my approach and justifications throughout the project.
 
-### Why this project?
-The unsupervised learning branch of machine learning is key in the organization of large and complex datasets. While unsupervised learning lies in contrast to supervised learning in the fact that unsupervised learning lacks objective output classes or values, it can still be important in converting the data into a form that can be used in a supervised learning task. Dimensionality reduction techniques can help surface the main signals and associations in your data, providing supervised learning techniques a more focused set of features upon which to apply their work. Clustering techniques are useful for understanding how the data points themselves are organized. These clusters might themselves be a useful feature in a directed supervised learning task. This project will give you hands-on experience with a real-life task that makes use of these techniques, focusing on the unsupervised work that goes into understanding a dataset.
+## Results:
 
-In addition, the dataset presented in this project requires a number of assessment and cleaning steps before you can apply your machine learning methods. In workplace contexts, you will frequently need to work with data that is untidy or needs preprocessing before standard algorithms and models can be applied. The ability to perform data wrangling and the ability to make decisions on data that you work with are both valuable skills that you will practice in this project.
+Upon completion of this project, I will have successfully identified core customer segments for the mail-order sales company. The analysis will provide actionable insights into the characteristics of different customer groups, allowing for targeted marketing strategies. The project will be evaluated not only on the effectiveness of the segmentation but also on the clarity and justification of the decisions made throughout the analysis process.
